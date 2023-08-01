@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Web Dasar</title>
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <link
+      href="Asset/bootstrap-5.2.3-dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ini navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: #8809b2"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link instagram</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- Content -->
+    <div class="container-fluid">
+      <!-- Judul -->
+      <h1>Welcome</h1>
+      <p> Berikut merupakan kucing saya dan sabrina eka putri</p>
+      <!-- End Judul -->
+
+<!-- Image content -->
+      <div class="Foto">
+        <div class="row">
+          <div class="row-cols-md-1;">
+            <h5>Ini merupakan gambar Sapi hitam putih: <img src="Sapi hitam putih.jpeg" 
+              alt="Image" height="500"; width="500"> 
+            </h5>
+            
+            
+        <div class="row-sm-3;">
+          <h5>Ini merupakan gambar pangeran kupa: <img src="Pangeran Kupa.jpeg" 
+            alt="Image" height="500"; width="500">
+          </h5>
+          
+           <div class="row-cols-3; align-bottom">
+            <h5>Ini merupakan gambar Sapi cewe: <img src="Sapi cewe.jpeg" 
+              alt="Image"height="500"; width="500">
+            </h5>
+
+            </div>         
+<!-- end Image content -->
+
+      <!-- Table Data 1 -->
+      <div class="mb-5">
+        <h3>Tabel 1</h3>
+        <table border="5"; style="background-color: rgb(255, 0, 170); font-display: 100; ">
+          <thead>
+            <tr>
+              <th scope="col">No</th>
+              <th cope="col">Nama</th>
+              <th scope="col">Jenis</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"><h6>1</h6></th>
+              <td><h6>Poleng</h6></td>
+              <td style="margin: 10px;"><h6>Sapihitamputih</h6></td>
+            </tr>
+            <tr>
+              <th scope="row"><h6>2</h6></th>
+              <td><h6>kupa</h6></td>
+              <td><h6>Pangeran abu abu</h6></td>
+            </tr>
+            <tr>
+              <td><h6>3</h6></td>
+              <td><h6>Cia</h6></td>
+              <td><h6>sapicewe</h6></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- end Tabel 1 -->
+
+      <!-- Table 2 -->
+      <h4>Tabel 2</h4>
+      <table class="table 2">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1
+            </th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- end table 2 -->
+    </div>
+    <!-- End Content -->
+
+    <script src="Asset/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

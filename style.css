@@ -1,0 +1,10 @@
+.judul {
+  text-align: center;
+  background-color: blue;
+  box-shadow: 10;
+  color: blueviolet;
+  font-size: larger;
+}
+.img {
+  object-fit: cover;
+}
